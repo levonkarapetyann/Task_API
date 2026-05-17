@@ -1,0 +1,9 @@
+curl -X POST https://2jjq5vp3fe.execute-api.us-east-1.amazonaws.com/default/sensors \
+-H "Content-Type": "application/json" \
+-d '{"sensorId":"sensor1","temperature":36.5}' 
+
+
+curl -X GET https://2jjq5vp3fe.execute-api.us-east-1.amazonaws.com/default/sensors/sensor1
+
+
+curl -X DELETE https://2jjq5vp3fe.execute-api.us-east-1.amazonaws.com/default/sensors/sensor1
