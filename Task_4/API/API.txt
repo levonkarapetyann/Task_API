@@ -1,0 +1,1 @@
+curl -X GET "https://ttj2vhheek.execute-api.us-east-1.amazonaws.com/default/calculate?a=5&b=25&operation=multiply"
