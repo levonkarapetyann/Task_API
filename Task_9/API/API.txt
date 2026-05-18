@@ -1,0 +1,1 @@
+curl -X POST https://5nhr761yp5.execute-api.us-east-1.amazonaws.com/default/save -H "Content-Type:application/json" -d '{"filename": "message3.json", "name": "Dmitry", "message": "Hello"}'
