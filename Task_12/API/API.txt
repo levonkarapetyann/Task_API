@@ -1,0 +1,6 @@
+curl -X POST https://r6987gfxqe.execute-api.us-east-1.amazonaws.com/default/notes -H "Content-Type:application/json" -d '{"noteId": "note2", "content": "Hello terminal"}'
+
+
+curl -X GET https://r6987gfxqe.execute-api.us-east-1.amazonaws.com/default/notes/{noteId}
+
+curl -X DELETE https://r6987gfxqe.execute-api.us-east-1.amazonaws.com/default/notes/{noteId}
