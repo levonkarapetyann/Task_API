@@ -1,0 +1,7 @@
+curl -X POST https://wngwfegfql.execute-api.us-east-1.amazonaws.com/default/students -H "Content-Type:application/json" -d '{"studentId": "student2", "name": "Dmitry", "age": "22", "course": "PMI"}'
+
+
+curl -X GET https://wngwfegfql.execute-api.us-east-1.amazonaws.com/default/students/{studentId}
+
+
+curl -X DELETE https://wngwfegfql.execute-api.us-east-1.amazonaws.com/default/students/{studentId}
